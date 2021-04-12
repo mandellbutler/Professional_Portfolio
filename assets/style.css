@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
     border: 1px solid rgb(209, 207, 207);
-    background-color: rgb(43, 43, 87);
+    background-color: rgb(35, 42, 61);
     color: #fff
 }
 
-.headshot {
+/* Header */
+ .headshot {
     display: flex;
-    max-width: 40%;
-    height: auto;
+    justify-content: center;
 }
