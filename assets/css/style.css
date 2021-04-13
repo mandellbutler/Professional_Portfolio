@@ -2,6 +2,7 @@
     box-sizing: border-box;
     border: 1px solid rgb(209, 207, 207);
     background-color: rgb(35, 42, 61);
+    font-family: 'Courier New', Courier, monospace;
     color: #fff
 }
 
@@ -31,13 +32,51 @@ img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 2vh;
+    font-size: calc(14px + 2vw);
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     font-size: 80%;
 }
 /**********************END-HEADER**********************/
+
+/**********************BEGIN-MAIN**********************/
+.porfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+    
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff;
+    
+}
+
+.project-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+.project-image img {
+    width: 100%
+}
+
+/**********************END-MAIN************************/
+
+/*******************BEGIN-ARTICLE**********************/
+
+/*******************END-ARTICLE**********************/
