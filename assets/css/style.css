@@ -49,17 +49,25 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     border: 1px solid #ffffff;
 }
     
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+}
 
 .project-title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     border: 1px solid #ffffff;
+    padding: .5em
     
 }
 
@@ -67,6 +75,10 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     width: 100%;
     border: 1px solid #ffffff;
 }
@@ -76,7 +88,43 @@ img {
 }
 
 /**********************END-MAIN************************/
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
 
-/*******************BEGIN-ARTICLE**********************/
+ input[type=text] {
+     width: 60%;
+     padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+ }
 
-/*******************END-ARTICLE**********************/
+ input [type=text]:focus {
+     background-color: lightblue;
+ }
+/*******************BEGIN-SUMMARY**********************/
+
+
+/*******************END-SUMMARY**********************/
+
+
+
+
+
+/********************BEGIN-MEDIA-QUERY***************/
+
+@media screen and (min-width: 768) {
+    main{
+        float: left;
+        width: 70%;
+    }
+    aside {
+        float: right;
+        width: 30%;
+    }
+}
