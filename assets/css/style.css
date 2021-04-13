@@ -19,9 +19,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-<<<<<<< HEAD
-  }
-=======
     margin: 0 auto;
 }
 
@@ -37,7 +34,6 @@ img {
     flex-direction: column;
     font-size: calc(14px + 2vw);
 }
->>>>>>> workingbranch
 
 .navbar {
     display: flex;
@@ -46,15 +42,6 @@ img {
     flex-wrap: wrap;
     font-size: 80%;
 }
-<<<<<<< HEAD
-
-.navbar-list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding-left: 1em;
-}
-=======
 /**********************END-HEADER**********************/
 
 /**********************BEGIN-MAIN**********************/
@@ -93,4 +80,3 @@ img {
 /*******************BEGIN-ARTICLE**********************/
 
 /*******************END-ARTICLE**********************/
->>>>>>> workingbranch
