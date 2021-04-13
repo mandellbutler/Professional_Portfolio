@@ -119,12 +119,22 @@ img {
 /********************BEGIN-MEDIA-QUERY***************/
 
 @media screen and (min-width: 768) {
-    main{
+    .portfolio {
         float: left;
         width: 70%;
     }
-    aside {
+    .bio {
         float: right;
         width: 30%;
     }
+}
+
+@media screen and (min-width: 768) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 80%;
+    }
+
 }
