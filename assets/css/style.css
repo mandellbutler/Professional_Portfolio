@@ -89,24 +89,16 @@ img {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    transition: transform .2s;
     width: 100%;
     border: 1px solid #ffffff;
 }
-
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-  }
   
-  .zoom:hover {
+.project-image:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
-  }
+}
 
 
 .project-image img {
@@ -151,6 +143,13 @@ img {
 /********************BEGIN-MEDIA-QUERY***************/
 
 @media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-size: 80%;
+    }
     .portfolio {
         display: flex;
         flex-direction: row;
@@ -167,17 +166,25 @@ img {
         background-color: #080808;
         font-family: 'Courier New', Courier, monospace;
         color: #fff
+    }
 }
 
-@media screen and (min-width: 768px) {
-    .navbar {
+@media screen and (min-width: 950px) {
+    .header {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
-        font-size: 80%;
+        flex-direction: row;
+    }
+    
+    .navbar {
+        align-self: flex-end;
+        flex-direction: column;
+        order: -2;
+        color: yellow;
     }
 
-
+    .header div {
+        color:turquoise
+    }
 }
-
