@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 1px solid rgb(209, 207, 207);
+    border: 0px solid rgb(209, 207, 207);
     background-color: rgb(35, 42, 61);
     font-family: 'Courier New', Courier, monospace;
     color: #fff
@@ -43,7 +43,7 @@ img {
     flex-wrap: wrap;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 80%;
+    font-size: calc(7px + 2vw);
 }
 /**********************END-HEADER**********************/
 
@@ -53,8 +53,10 @@ img {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 60%;
+    margin: 40px auto;
     flex: 1 0 250px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
     
 .project {
@@ -71,8 +73,10 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid #ffffff;
-    padding: .5em
+    width: 100%;
+    border: 2px solid #ffffff;
+    padding: .5em;
+    font-size: calc(8px + 2vw);
     
 }
 
@@ -81,7 +85,6 @@ img {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    height: auto;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
@@ -90,11 +93,20 @@ img {
     border: 1px solid #ffffff;
 }
 
-.project-image:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
-}
+  }
 
 
 .project-image img {
@@ -105,21 +117,29 @@ img {
 .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     width: 100%;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff; 
+    Padding: 2em;
 }
 
  input[type=text] {
-     width: 60%;
-     padding: 12px 20px;
+    width: 60%;
+    padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid grey;
  }
 
  input [type=text]:focus {
      background-color: lightblue;
+ }
+
+ textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid grey;
  }
 /*******************BEGIN-SUMMARY**********************/
 
@@ -128,20 +148,25 @@ img {
 
 
 
-
-
 /********************BEGIN-MEDIA-QUERY***************/
 
 @media screen and (min-width: 768px) {
     .portfolio {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
         flex: 0 0 50%;
         max-width: 50%;
         border: 1px solid #ffffff; 
     }
+
+    * {
+        box-sizing: border-box;
+        border: 0px solid rgb(209, 207, 207);
+        background-color: #080808;
+        font-family: 'Courier New', Courier, monospace;
+        color: #fff
 }
 
 @media screen and (min-width: 768px) {
@@ -152,5 +177,7 @@ img {
         flex-wrap: wrap;
         font-size: 80%;
     }
+
+
 }
 
