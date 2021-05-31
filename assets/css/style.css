@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    border: 0px solid rgb(209, 207, 207);
     background-color: rgb(35, 42, 61);
     font-family: 'Courier New', Courier, monospace;
     color: #fff
@@ -48,7 +47,10 @@ img {
 /**********************END-HEADER**********************/
 
 /**********************BEGIN-MAIN**********************/
-.portfolio {
+body {
+    background-color: rgb(35, 42, 61);
+}
+/* .portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,29 +58,8 @@ img {
     max-width: 60%;
     margin: 40px auto;
     flex: 1 0 250px;
-    border: 2px solid #ffffff;
-}
-    
-.project {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    
-}
+} */
 
-.project-title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 100%;
-    border: 2px solid #ffffff;
-    padding: .5em;
-    font-size: calc(8px + 2vw);
-    
-}
 
 .project-image {
     display: flex;
@@ -106,7 +87,9 @@ img {
 }
 
 /**********************END-MAIN************************/
-.contact-form {
+
+/*******************BEGIN-SUMMARY**********************/
+/* .contact-form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -114,29 +97,32 @@ img {
     width: 100%;
     border: 2px solid #ffffff; 
     Padding: 2em;
-}
+} */
 
- input[type=text] {
-    width: 60%;
+input[type=text] {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid grey;
- }
+}
 
- input [type=text]:focus {
+input [type=text]:focus {
      background-color: lightblue;
- }
+}
 
- textarea {
-    width: 60%;
+textarea {
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 2px solid grey;
- }
-/*******************BEGIN-SUMMARY**********************/
-
-
+}
 /*******************END-SUMMARY**********************/
+
+/*******************END-FOOTER**********************/
+ footer {
+    display: flex;
+    justify-content: center;
+ }
 
 
 
@@ -150,20 +136,17 @@ img {
         flex-wrap: wrap;
         font-size: 80%;
     }
-    .portfolio {
+    /* .portfolio {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        flex: 0 0 50%;
-        max-width: 50%;
-        border: 1px solid #ffffff; 
-    }
+    } */
 
     * {
         box-sizing: border-box;
         border: 0px solid rgb(209, 207, 207);
-        background-color: #080808;
+        background-color: rgb(35, 42, 61);
         font-family: 'Courier New', Courier, monospace;
         color: #fff
     }
