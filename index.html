@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Mandell Butler {Full Stack Web Developer}</title>
 </head>
+
 <body>
-    <header class="header">
+    <header class="container header">
         <figure class="headshot">
-            <img src="./assets/images/headshot.png" alt="Mandell Posed in Suit Jacket"/>
+            <img src="./assets/images/headshot.png" alt="Mandell Posed in Suit Jacket" />
         </figure>
         <section class="namecard">
             <h1>Mandell Butler</h1>
@@ -19,74 +23,85 @@
             </div>
         </section>
         <nav class="navbar">
-            <p><a href="#horiseon">myWork</a></p>
+            <p><a href="#work">myWork</a></p>
             <p><a href="#biography">aboutMe</a></p>
             <p><a href="#contact">Contact</a></p>
         </nav>
-    </header>
-    <main class="portfolio">
-        <section id="horiseon" class="project">
-            <div class="project-title">HORISEON SEO</div>
-            <figure class="project-image">
-                <a href="https://mandellbutler.github.io/Horiseon-seo/" target="_blank"><img src="./assets/images/horiseon.png" alt="Image of man leading a team strategy meeting."></a>
+    </header><br>
+    <main id="work" class="container portfolio">
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">Horiseon SEO</div>
+            <figure class="card-body project-image">
+                <a href="https://mandellbutler.github.io/Horiseon-seo/" target="_blank"><img
+                        src="./assets/images/horiseon.png" alt="Image of man leading a team strategy meeting."></a>
             </figure>
         </section>
-        <section class="project">
-            <div class="project-title">On the Way</div>
-            <figure class="project-image">
-                <a href="https://franklincodes1.github.io/GroupProject1/" target="_blank"><img src="./assets/images/otw.JPG" alt="Image of gps mapping application"></a>
-            </figure> 
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">On The Way</div>
+            <figure class="card-body project-image">
+                <a href="https://franklincodes1.github.io/GroupProject1/" target="_blank"><img
+                        src="./assets/images/otw.JPG" alt="Image of gps mapping application"></a>
+            </figure>
         </section>
-        <section class="project">
-            <div class="project-title">Work Day Scheduler</div>
-            <figure class="project-image">
-                <a href="https://mandellbutler.github.io/Day-Planner/" target="_blank"><img src="./assets/images/planner.JPG" alt="Image of a work day scheduler with organized rows."></a>
-            </figure> 
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">Work Day Scehduler</div>
+            <figure class="card-body project-image">
+                <a href="https://mandellbutler.github.io/Day-Planner/"><img src="./assets/images/planner.JPG"
+                        alt="Image of a work day scheduler with organized rows."></a>
+            </figure>
         </section>
-        <section class="project">
-        <div class="project-title">Password Generator</div>
-        <figure class="project-image">
-            <a href="https://mandellbutler.github.io/Password-Genie/" target="_blank"><img src="./assets/images/password.png" alt="Image of a password generating application"></a>
-        </figure> 
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">Password Generator</div>
+            <figure class="card-body project-image">
+                <a href="https://mandellbutler.github.io/Password-Genie/" target="_blank"><img
+                        src="./assets/images/password.png" alt="Image of a password generating application"></a>
+            </figure>
         </section>
-        <section class="project">
-            <div class="project-title"> The Pastry Hub</div>
-            <figure class="project-image">
-                <a href="#" target="_blank"><img src="./assets/images/cupcakes.jpg" alt="Image of a delicious display of mini-cupcakes."></a>
-            </figure> 
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">Devine Cupcakes</div>
+            <figure class="card-body project-image">
+                <a href="#" target="_blank"><img src="./assets/images/cupcakes.jpg"
+                        alt="Image of a gorgeous wedding dress draped in the sun."></a>
+            </figure>
         </section>
-        <section class="project">
-            <div class="project-title">Kayla's Bridal</div>
-            <figure class="project-image">
-                <a href="#" target="_blank"><img src="./assets/images/bridal.JPG" alt="Image of a gorgeous wedding dress draped in the sun."></a>
-            </figure> 
+        <section class="card text-white m-1" style="max-width: 18rem;">
+            <div class="card-header bg-secondary">Kayla's Bridal</div>
+            <figure class="card-body project-image">
+                <a href="#" target="_blank"><img src="./assets/images/image0.jpeg"
+                        alt="Image of a gorgeous wedding dress draped in the sun."></a>
+            </figure>
         </section>
-    </main>
-    <Summary id="biography" class="aboutme">
-        <h2>ABOUT ME</h2>
-        <aside class="bio">
-            <p>
-                My name is Mandell Butler and I am Full Stack Web Developer. And this is my bio!
-            </p>
-        </aside>
-        <h2>CONTACT</h2>
-        <form id="contact" class="contact-form">
-            <div>
-                <label for="user">Name:</label>
-                <input id="name" type="text" placeholder="First & Last Name">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input id="email" type="text" placeholder="johndoe@example.com">
-            </div>
-            <div>
-                <label for="comment">Comment:</label>
-                <textarea id="comment" placeholder="Let's Connect! Please leave a message!""></textarea>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+    </main><br>
+    <Summary id="biography" class="container row">
+        <section class="container .p-3 col-sm-6 col-md-6">
+            <h3>ABOUT ME</h3>
+            <aside class="bio">
+                <p>
+                    My name is Mandell Butler and I am Full Stack Web Developer. And this is my bio!
+                </p>
+            </aside>
+        </section>
+        <section class="container .p-3 col-sm-6 col-md-4">
+            <h3>CONTACT</h3>
+            <form id="contact" class="contact-form">
+                <div>
+                    <label for="user">Name:</label>
+                    <input id="name" type="text" placeholder="First & Last Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" placeholder="johndoe@example.com">
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-row" id="comment"
+                        placeholder="Let's Connect! Please leave a message!"></textarea>
+                </div>
+                <div class="d-grid gap-2 col-4 mx-auto">
+                    <button class="btn btn-secondary btn-sm" type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
     </Summary>
     <footer>
         <p>
@@ -94,4 +109,8 @@
         </p>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
 </html>
