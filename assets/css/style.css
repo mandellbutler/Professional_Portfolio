@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(35, 42, 61);
+    background: color #00132a;
     font-family: 'Courier New', Courier, monospace;
     color: #fff
 }
@@ -48,7 +48,7 @@ img {
 
 /**********************BEGIN-MAIN**********************/
 body {
-    background-color: rgb(35, 42, 61);
+    background-color:#00132a
 }
 /* .portfolio {
     display: flex;
@@ -84,6 +84,10 @@ body {
 
 .project-image img {
     width: 100%
+}
+
+.card-body {
+    background-color:#00132A;
 }
 
 /**********************END-MAIN************************/
@@ -136,17 +140,17 @@ textarea {
         flex-wrap: wrap;
         font-size: 80%;
     }
-    /* .portfolio {
+    .portfolio {
         display: flex;
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-    } */
+    }
 
     * {
         box-sizing: border-box;
         border: 0px solid rgb(209, 207, 207);
-        background-color: rgb(35, 42, 61);
+        background-color:#00132a;
         font-family: 'Courier New', Courier, monospace;
         color: #fff
     }
