@@ -24,7 +24,7 @@ Simply visit the deployed page and view my work!
 
 
 Homepage with clickable portfolio images:
-<img src="public/assets/images/homepage.png" width="400">
+<img src="/assets/images/homepage.png" width="400">
 
 
 Responsive Design:
