@@ -38,11 +38,11 @@ Simply visit the deployed page and view my work!
 
 
 
-* Link to Deployed Site:
 
-<a href="https://mandellbutler.github.io/Professional_Portfolio/m">My Professional Portfolio</a>
 
-https://mandellbutler.github.io/Professional_Portfolio/
+* Link to Deployed Site => <a href="https://mandellbutler.github.io/Professional_Portfolio/m">My Professional Portfolio</a>
+
+
 
 
 # Technology
