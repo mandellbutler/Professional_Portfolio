@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Link to Deployed Site] (#link)
+- [Link] (#link)
 - [Technology](#technology)
 
 
