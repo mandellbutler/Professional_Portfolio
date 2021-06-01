@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Link](#link)
+- [Link](##link)
 - [Technology](#technology)
 
 
@@ -41,7 +41,7 @@ Simply visit the deployed page and view my work!
 
 
 
-# Link
+## Link
 
 * Deployed Site => <a href="https://mandellbutler.github.io/Professional_Portfolio/m">My Professional Portfolio</a>
 
