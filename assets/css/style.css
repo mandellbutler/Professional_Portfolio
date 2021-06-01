@@ -83,7 +83,7 @@ body {
     margin-inline-end: 0px;
     transition: transform .2s;
     width: 100%;
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 }
   
 .project-image:hover {
@@ -99,10 +99,16 @@ body {
 
 .card-body {
     background-color:#00132A;
+    /* background-image: linear-gradient(to bottom right,#00132A, lightslategrey) */
 }
 
 .card-header {
-    background-color: #2c3356;
+    /* background-color: #2c3356; */
+    background-image: linear-gradient(to bottom right,#00132A, lightslategrey)
+}
+
+.card {
+    border: 1px solid #6c757d;
 }
 
 /**********************END-MAIN************************/
