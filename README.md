@@ -24,10 +24,12 @@ Simply visit the deployed page and view my work!
 
 
 Homepage with clickable portfolio images:
+
 <img src="/assets/images/homepage.png" width="400">
 
 
 Responsive Design:
+
 ![Responsive Layout](./assets/gifs/demo.gif)
 
 
