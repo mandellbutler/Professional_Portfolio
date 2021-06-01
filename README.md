@@ -4,6 +4,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Link to Deployed Site] (#link)
 - [Technology](#technology)
 
 
@@ -32,7 +33,7 @@ Simply visit the deployed page and view my work!
 
 
 
-* Responsive Design:
+### Responsive Design:
 
 ![Responsive Layout](./assets/gifs/demo.gif)
 
@@ -40,7 +41,9 @@ Simply visit the deployed page and view my work!
 
 
 
-* Link to Deployed Site => <a href="https://mandellbutler.github.io/Professional_Portfolio/m">My Professional Portfolio</a>
+# Link
+
+* Deployed Site => <a href="https://mandellbutler.github.io/Professional_Portfolio/m">My Professional Portfolio</a>
 
 
 
