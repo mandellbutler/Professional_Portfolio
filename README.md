@@ -23,7 +23,7 @@ No installation necessary.
 Simply visit the deployed page and view my work!
 
 
-Homepage with clickable portfolio images:
+* Homepage with clickable portfolio images:
 
 <img src="/assets/images/homepage.png" width="400">
 
@@ -32,7 +32,7 @@ Homepage with clickable portfolio images:
 
 
 
-Responsive Design:
+* Responsive Design:
 
 ![Responsive Layout](./assets/gifs/demo.gif)
 
